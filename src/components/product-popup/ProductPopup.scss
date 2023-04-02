@@ -1,0 +1,54 @@
+.product-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+
+.product-popup-inner {
+    position: relative;
+    top: 8%;
+    width: 100%;
+    padding: 14px;
+    border-radius: 16px;
+    height: 73vh;
+    max-width: 640px;
+    background-color: #fff;
+    overflow-y: scroll;
+} 
+
+& .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 10000000;
+  font-size: 32px;
+  cursor: pointer;
+}
+& .close-btn:hover {
+  background-color: rgb(236, 6, 6);
+  color: #fff;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+ .product-popup-inner {
+   position: absolute;
+   top: 10%;
+   height: 30vh;
+   
+   & .close-btn {
+    top: 25px;
+  }
+ }
+
+}

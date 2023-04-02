@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.input {
+    padding: 1.25rem;
+    border-radius: 16px;
+    height: 15px;
+    width: 100%;
+    width: 320px;
+    outline: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(153, 149, 149);
+    border: none;
+    box-shadow: 0 2px 2px 2px rgba(121, 255, 255, .35);
+}
+.input::placeholder {
+    color: rgb(155, 145, 145);
+   padding-left: 45px;
+}
+.cart-icon {
+    color: #0F9D58;
+    position: absolute;
+    right: 0;
+    margin-left: auto;
+}
+.text-2 {
+    color: #0F9D58;
+    font-size: .88rem;
+    font-style: oblique;
+}
+nav {
+    font-family: montserrat, sans-serif;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, .2);
+    height: 90px;
+    // display: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10px;
+    font-size: 20px;
+    position:  absolute;
+    width: 85%;
+    left: 10%;
+    bottom: 26%;
+    cursor: pointer;
+    color: #0F9D58;
+}
+
+.display-option {
+    display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+    .input {
+        margin-top: 10px;
+        margin-right: 7rem;
+        margin-left: 0;
+        width: 190px;
+    }
+    .mic-icon {
+        position: absolute;
+        right: 35%;
+    }
+    .search-icon {
+        left: 5%;
+    }
+    .text-2 {
+        display: none;
+    }
+
+    .display-option {
+        display: block;
+    }
+    .cart-icon {
+        position: absolute;
+        right: 15%;
+        top: 12%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1400px) {
+	.input {
+        max-width: 260px;
+    }
+    .cart-icon {
+        position: absolute;
+        right: 0%;
+        
+    }
+    .h2-options {
+        margin-right: 1.5em;
+    }
+}

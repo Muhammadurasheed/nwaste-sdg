@@ -1,0 +1,95 @@
+.sidebar {
+    height: 88vh;
+    width: 250px;
+    background-color: #2f4050;
+    margin-top: 5.5rem;
+}
+.sidebar-list {
+   height: auto;
+   width: 100%;
+   padding: 0;
+   font-size: 18px;
+}
+.sidebar-list .items {
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sidebar-list .items:hover {
+    cursor: pointer;
+    background-color: #293846;
+}
+.sidebar-list #active {
+    background-color: #293846;
+}
+
+.items #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+.items #title {
+    flex: 70%;
+
+}
+.hover-title {
+    display: none;
+}
+
+#avatar-icon {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    width: 65px;
+    height: 65px;
+    padding-top: 25px;
+    margin-bottom: 10px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+#username {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    margin-top: 45px;
+}
+#navigation {
+    background-color: rgb(68, 104, 68);
+    margin: 25px auto;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .items #title {
+        display: none;
+        &:hover {
+            display: flex;
+        }
+    }
+    .items #icon {
+        font-size: 28px;
+    }
+    #avatar-icon {
+        width: 45px;
+        height: 45px;
+    }
+    #username {
+        font-size: 12px;
+        text-align: center;
+    }
+    .sidebar {
+        width: 100px;
+    }
+    #navigation {
+        display: none;
+    }
+}

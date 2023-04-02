@@ -1,0 +1,299 @@
+// for the background images
+.container {
+    max-width: 1500px;
+    width: 100%;
+    height: 85vh;
+    animation: animate 18s ease-in-out infinite;
+    background-size: cover;
+}
+
+// to make text visible
+.outer {
+    height: 90vh;
+    background: rgba($color: #000000, $alpha: 0.175);
+}
+
+// making text well align on the backround
+.details {
+    position: relative;
+    left: 30%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+}
+
+.details>h1,
+.details>p {
+    font-family: 'Smooch Sans', sans-serif;
+    color: #f1f1f1;
+}
+.details>h1 {
+    font-size: 2.5rem;
+}
+
+.details>p {
+    font-size: 1.55rem;
+}
+
+// get started button styling beginning
+.details .get-started {
+    background: green;
+    padding: 0;
+    border-radius: 16px;
+    width: 160px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    font-size: 16px;
+    display: inline-flex;
+    height: 3.45rem;
+    box-shadow: 0 0.3rem rgba(121, 121, 121, .65);
+}
+
+.details .get-started:hover {
+    filter: brightness(130%);
+}
+
+.details .get-started:active {
+    transform: translate(0, .3rem);
+    box-shadow: 0 0.1rem rgba(255, 255, 255, .65);
+}
+
+.get-started-btn,
+.get-started-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 22px;
+    height: 100%;
+}
+
+.get-started-icon {
+    padding: 4px;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+// get started button styling ending
+
+// our service container
+.service-title {
+    margin-top: 50px;
+    text-align: center;
+    color: #000;
+}
+
+.service .service-container {
+    margin-top: 1.25rem;
+    display: grid;
+    grid-gap: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 2fr));
+    max-width: auto;
+    padding: 25px 50px;
+    background: rgba($color: #000, $alpha: 0.175);
+    border-radius: 8px;
+    opacity: .85;
+}
+
+// service card
+
+.service-container .container-item {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: all 0.35s ease-in-out;
+}
+.img-style {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        width: auto;
+        overflow-x: hidden;
+    }
+
+    .details {
+        margin-left: 2.5em;
+        width: 250px;
+
+    }
+
+    .details h1 {
+        font-size: 1.95rem;
+    }
+
+    .details p {
+        font-size: 1.55rem;
+        margin-bottom: 2em;
+    }
+
+    .service-title {
+        color: #000;
+    }
+
+    .service .service-container {
+        display: block;
+        min-height: 200px;
+        text-align: center;
+        padding: 20px;
+        margin: 30px auto 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .service-container .container-item {
+        margin-bottom: 1em;
+        min-width: 320px;
+    }
+
+    .details .get-started {
+        margin-top: -15px;
+    }
+}
+
+//end of our service styling
+
+// the beginnig of review styling
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.review {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: #000;
+    font-family: montserrat, sans-serif;
+    padding: 24px;
+    .custom-btn2 {
+        margin-top: 15px;
+        background: green;
+    }
+    .app-name {
+        width: 23%;
+    }
+    .nwaste-app {
+        width: 77%;
+    }
+}
+.card-text {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.horizontal-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    width: 50px;
+    border: 1px solid #000;
+    margin: 8px;
+}
+// end of review styling for biggest screen
+
+// review media query for smaller screen
+@media screen and (max-width: 768px) {
+    // for services
+
+    .service-container .container-item {
+        width: 250px;
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        .app-name {
+            width: 80%;
+        }
+        .nwaste-app {
+            width: 90%;
+        }
+    }
+} 
+
+
+// Future plan
+.future-plan {
+    color: #000;
+    margin: 3.75rem 2rem 4rem;
+    min-width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px 10px rgba($color: #000000, $alpha: 0.1);
+    padding: 20px 10px;
+    border-radius: 8px;
+}
+.future-center {
+    text-align: center;
+}
+
+.future-plan:hover {
+    transform: scale(1.03);
+}
+
+.mission {
+    display: flex;
+    padding: 25px 15px;
+
+}
+
+.mission p {
+    max-width: 700px;
+    font-size: 1.65rem;
+    font-weight: 350;
+    margin-right: 12.35rem;
+    color: #000;
+}
+
+.mission img {
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+    .mission p {
+        min-width: 370px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .future-plan {
+        max-width: auto;
+        padding: 10px;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+
+    .mission {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mission p {
+        font-size: .98rem;
+        margin-right: auto;
+        max-width: 350px;
+    }
+
+    .mission img {
+        margin: auto;
+        width: auto;
+        height: auto;
+    }
+}
+

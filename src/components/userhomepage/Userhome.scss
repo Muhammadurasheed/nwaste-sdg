@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+.user-page {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: hidden;
+    font-family: montserrat, sans-serif;
+}
+
+.userpage-layout {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+}
+.user-main-page {
+    margin-left: 6.75rem;
+}
+.user-main-page> .soil-params {
+    margin-bottom: 15px;
+}
+
+.content-description-header {
+    // margin-top: 25px;
+    font-style: 15px;
+    max-width: 700px;
+    color: #4285f4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-description {
+    margin-top: 5px;
+    max-width: 600px;
+    letter-spacing: 1.5;
+    font-size: 18px;
+    margin: 20px auto;
+    background: #fff7e5;
+    padding: 15px;
+}
+.about-soil {
+    color: #0c5f79;
+}
+@media screen and (max-width: 480px) {
+    .user-main-page {
+        margin-left: 0;
+    }
+    .user-main-page> .soil-params {
+        margin-bottom: 8px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .content-description{
+        margin-top: 32px;
+        letter-spacing: 1.5;
+        margin: 5px auto;
+        padding: 6.5px;
+        font-size: 15px;
+    }
+}

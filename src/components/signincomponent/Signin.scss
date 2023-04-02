@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.sign-in{
+    font-family: montserrat, sans-serif;
+    margin-top: 2.35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.form-input {
+    max-width: 320px;
+}
+
+.login-in-bg {
+    box-shadow: 0 10px 10px 10px rgba(121, 121, 121, .65);
+    padding: .6rem;
+    border-radius: 16px;
+    background: #fff;
+    height: 550px;
+    width: 320px;
+}
+
+.sign-in-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.google-btn {
+    margin-top: 5px;
+    background: #0F9D58;
+    border: #000;
+}
+
+.google-btn:active {
+    transform: translate(0, .3rem);
+}
+
+.sign-up-btn, .sign-in-btn {
+    outline: none;
+    border: none;
+    background: #0F9D58;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.sign-up-btn:active, .sign-in-btn:active {
+    transform: translate(0, .2rem);
+}
+.forgot-pass {
+    color: #4285f4;
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    margin-left: 45px;
+}
+
+.sign-logo {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 4px rgba(121, 121, 121, .5);
+    padding: .5rem;
+}
+
+.header-4 {
+    color: #0c5f79;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.span {
+    color: #0c5f79;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .sign-in-btns> .custom-btn {
+        width: 100px;
+    }
+    .google-btn {
+        max-width: 200px;
+    }
+}
+
+

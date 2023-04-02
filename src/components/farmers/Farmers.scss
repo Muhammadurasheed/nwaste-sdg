@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.farmer-card {
+    font-family: montserrat, sans-serif;
+    color: #0c5f79;
+    margin: 2rem auto ;
+    max-width: auto;
+    height: auto;
+    overflow: hidden;
+
+}
+.fruits-card {
+    font-family: montserrat, sans-serif;
+    color: #0c5f79;
+    margin: 10rem auto 2rem;
+    max-width: auto;
+    height: auto;
+    overflow: hidden;
+}
+.product-name-1 {
+    position: absolute;
+    top: 16%;
+    left: 4%;
+    font-size: 28px;
+    color: #4285f4;
+    font-family: "Jost", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.product-title {
+    margin-left: 16px;
+    font-size: 28px;
+    color: #4285f4;
+    font-family: "Jost", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+
+.img {
+    width: 290px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    padding: .55rem;
+    width: 100%;
+    overflow: hidden;
+    &:hover {
+
+        transform: scale(1.1);
+        transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    }
+}
+
+.cart-button {
+    position: relative;
+    // z-index: -10000;
+    background-color: darkgrey;
+    color: #0c5f79;
+    padding: 2px;
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+.show-detail {
+    position: relative;
+    left: 70%;
+    bottom: 2.5em;
+    background: #00FF00;
+    padding: 6px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    &:hover {
+        background: #023020;
+    }
+}
+
+.see-all {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #4285f4;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    cursor: pointer;
+    &:hover {
+        color: #053583;
+    }
+}
+
+.flex-wrapper {
+    display: flex;
+}
+.location {
+    font-size: 16px;
+    color: gray;
+    
+}
+.price {
+    background: rgba(255, 255, 255, .15);
+    padding: 10px;
+}
+.name {
+    margin-bottom: .65rem;
+}
+
+.farm-products {
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%;
+    margin: 4px;
+    border: .2px solid #0c5f79;
+    
+}
+
+.position-footer {
+    position: absolute;
+    bottom: auto;
+    width: 100%;  
+    z-index: 100;
+} 
+#plain {
+    display: none;
+}
+
+//for mobiles and tablets
+
+@media screen and (max-width: 960px) {
+    .farm-products {
+        width: 47%;
+    }
+    .position-footer {
+        bottom: auto;
+    }
+    .show-detail {
+        left: 55%;
+        padding: 3px;
+        bottom: 2em;
+    }
+}
+@media screen and (max-width: 480px) {
+    .farm-products {
+        width: 47%;
+    }
+    .img {
+        height: 200px;
+        width: 200px;
+    }
+    // .cart-button {
+    //     top: 40%;
+    //     left: 20%;
+    //     display: flex;
+    // }
+}

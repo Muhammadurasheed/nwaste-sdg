@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.bg-holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../../assets/vectorsignupimage.jpg");
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up {
+        font-family: montserrat, sans-serif;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+.sign-in-bg {
+    box-shadow: 0 10px 10px 10px rgba(121, 121, 121, .65);
+    padding: .6rem;
+    border-radius: 16px;
+    background: #fff;
+    
+}
+
+@media screen and (max-width: 1440px) {
+    .sign-in-bg {
+        padding: .6rem;
+        max-height: 97vh;
+    }
+}

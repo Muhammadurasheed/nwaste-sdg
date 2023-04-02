@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.about-us {
+    font-family: montserrat, sans-serif;
+}
+
+.about-container {
+    width: 100%;
+    height: 80vh;
+    animation: animate 18s ease-in-out infinite;
+    background-size: cover;
+
+}
+
+@keyframes animate {
+
+    0%,
+     100%{
+        background-image: url('https://previews.123rf.com/images/yimwow/yimwow1207/yimwow120700013/14556238-granjero-en-la-granja-de-arroz.jpg');
+    }
+    25% {
+        background-image: url('https://i0.wp.com/www.terratechmsc.eu/wp-content/uploads/2022/01/smart-agricalture-in-europe-1.png?w=800&ssl=1');
+    }
+
+    50% {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Agriculture_in_Vietnam_with_farmers.jpg/2560px-Agriculture_in_Vietnam_with_farmers.jpg');
+    }
+    75% {
+        background-image: url('https://media.istockphoto.com/photos/aerial-photograph-rural-landscape-farms-villages-picturesque-green-picture-id1292399669?b=1&k=20&m=1292399669&s=170667a&w=0&h=LQAbbZdgZVPntMvwUvMBwTuJkIU7JF6XP4sGe-Mq4o0=');
+    }
+
+}
+
+
+.bg-text {
+    position: relative;
+    left: 30%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    color: #f1f1f1;
+    font-size: 2rem;
+}
+
+.about-tittle {
+    padding: 1.5rem;
+    text-align: center;
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .bg-text {
+        margin-left: 2.5em;
+        width: 200px;
+
+    }
+
+}
+
+.what-we-do {
+    max-width: 750px;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 1.65rem;
+    margin: 1.25rem auto;
+    box-shadow: 0 4px 10px 10px rgba(121, 121, 121, 0.65);
+    letter-spacing: 2.5;
+}
+
+@media screen and (max-width: 768px) {
+    .what-we-do {
+        max-width: 400px;
+    }
+}

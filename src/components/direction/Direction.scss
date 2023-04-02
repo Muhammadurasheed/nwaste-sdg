@@ -1,0 +1,89 @@
+.google-map-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .google-map {
+        position: absolute;
+        top: 12%;
+        left: 0;
+        right: 0; 
+        height: 100%;
+        width: 100%;
+    }
+    .google-map-form {
+        position: absolute;
+        top: 53%;
+        left: 0;
+        right: 0;
+        padding: 4px;
+        border-radius: large;
+        margin: 4px;
+        width: 100%;
+        background-color: orange;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        .form-input {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 8px;
+        }
+
+        .form-input  input {
+            padding: 10px;
+            margin: 10px;
+            outline: none;
+        }
+        .map-output {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: #fff;
+            font-size: 18px;
+        }
+    }
+    .clear-icon, .send-icon {
+        background-color: rgb(194, 180, 180);
+        border-radius: 50%;
+        padding: 4px;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .compute-route {
+        background-color: rgb(151, 21, 151);
+        border-radius: 14px;
+        padding: 5px;
+        color: #fff;
+    }
+}
+
+.map-header {
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .form-input {
+        flex-direction: column;
+        padding: 6px;
+        margin: 6px;
+    }
+    .map-output {
+        flex-direction: column;
+        width: 100%;
+    }
+    // .product-popup-inner {
+    //     position: relative;
+    //     height: 100vh;
+    //     bottom: 0;
+    //   }
+}

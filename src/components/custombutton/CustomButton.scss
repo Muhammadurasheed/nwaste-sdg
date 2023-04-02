@@ -1,0 +1,47 @@
+.custom-btn {  
+    width: 180px;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 15px;
+    background: #0F9D58;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+  
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+
+    &.inverted{
+      background-color: white !important;
+      color: black !important;
+      border: 1px solid black !important;
+  
+      &:hover{
+        background-color: black !important;
+        color: white !important;
+        border: none !important;
+      }
+    }
+   
+  }
+
+  
+
+  @media screen and (max-width: 768px) {
+    .custom-button {
+      width: 80px;
+      text-align: center;
+    }
+  }
+  

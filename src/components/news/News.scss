@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.loan {
+    font-family: montserrat, sans-serif;
+    max-width: 800px;
+    margin: 6rem auto;
+    background: #228c22;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loan-heading{
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.loan-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-decoration: underline;
+    color: #fff;
+}
+.loan-description {
+    margin-left: 10px;
+    max-width: 600px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
+    font-size: 18px;
+    color: #fff;
+}
+.apply {
+    color: #4285f4;
+}

@@ -1,0 +1,24 @@
+.product-btn {
+    border-radius: 12px;
+    background: #0F9D58;
+    width: 180px;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 18%;
+    margin-left: auto;
+    right: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    .product-btn {
+        width: 120px;
+        font-size: 12px;
+        height: 55%;
+        margin-bottom: 5px;
+    }
+}
