@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Nwaste
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Nwaste is a solution designed to improve the efficiency, productivity, sustainability, and profitability in the commercial agricultural industry. The project aims to address the challenges that farmers face in making informed decisions on which crops to grow, managing their farms effectively, connecting with buyers, and accessing agricultural loans. By providing comprehensive services, Nwaste seeks to optimize farm management, offer crop recommendations based on demand, connect farmers with buyers seamlessly, and link up farmers to available agricultural loans.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+-	Introduction
+-	Technologies
+-	Project Requirements
+-	How to Run the Project
+-	Features
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### `Introduction`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Nwaste is a project aimed at improving the commercial agricultural industry's efficiency, productivity, sustainability, and profitability. It seeks to address the difficulties that farmers encounter in making informed decisions, managing their farms effectively, connecting with buyers, and accessing agricultural loans. By providing a comprehensive solution, Nwaste intends to optimize farm management, offer crop recommendations based on demand, connect farmers with buyers seamlessly, and link up farmers to available agricultural loans.
 
-### `npm test`
+### `Technologies`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Nwaste project uses the following technologies:
 
-### `npm run build`
+-	React
+-	Firebase
+-	Redux
+-	Progressive Web App
+-	Google Maps
+-	Stripe API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `Project Requirements`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the Nwaste project, you need to have the following:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-	Node.js installed on your computer
+-	Git for version control
+-	A code editor of your choice
+**For more information, please refer to the documentation of each technology used.
 
-### `npm run eject`
+### `How to Run the Project`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the Nwaste project, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-	Clone this repository
+-	Open the cloned repository in your preferred code editor
+-	Navigate to the cloned project folder directory using the command prompt or terminal
+-	Run the command __npm install__ to download all the necessary dependencies required for the project to run
+-	Launch the project by running the command __npm start__
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Features
 
-## Learn More
+The Nwaste project offers the following features:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-	Crop recommendation based on demand
+-	Comprehensive farm management services
+-	Seamless connection with buyers
+-	Access to available agricultural loans
+-	Integration with Google Maps for easy navigation
+-	Integration with Stripe API for secure payment processing
